@@ -1,0 +1,56 @@
+
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width">
+<title>pin of fukui</title>
+<style>
+h1 {
+	text-align: center;
+	font-size: 30px;
+	margin: 10px 0px 10px 0px;
+	color: #DC7343;
+}
+#input {
+	display: none; /* inline-block */
+}
+#output {
+	display: none; /* inline-block */
+}
+#map-canvas {
+	height: 500px;
+}
+#footer {
+	font-size: 70%;
+}
+img {
+	width: 20em;
+}
+table {
+	border-collapse: collapse;
+}
+th, td {
+	font-size: 90%;
+	border: 1px solid black;
+	padding: 0.1em .3em;
+	max-width: 22em;
+}
+td:nth-child(6) {
+	word-break: break-all;
+}
+</style>
+</head>
+<body>
+
+<h1>pin of fukui</h1>
+
+<script type="module" src="https://code4fukui.github.io/csv-map/csv-map.js"></script>
+<csv-map src=pin-of-fukui.csv color=red grayscale=true></csv-map>
+
+<script type="module" src="https://code4sabae.github.io/js/csv-viewer.js"></script>
+<csv-viewer src=./pin-of-fukui.csv></csv-viewer>
+
+<hr>
+<div id='footer'>
+Data: <a href=https://makef.jp/pin/>福井のPin!</a><br>
+App: CC BY <a href=https://code4fukui.github.io/>Code for FUKUI</a> <a href=https://fukuno.jig.jp/3299>福野泰介</a> <a href=https://github.com/code4fukui/pin-of-fukui/>src on GitHub</a><br>
+</div>
+</body>
+</html>
