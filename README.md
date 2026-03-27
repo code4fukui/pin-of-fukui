@@ -4,7 +4,6 @@
 A map of pins in Fukui, Japan, created from open data.
 
 ## Demo
-[Live demo](https://code4fukui.github.io/pin-of-fukui/)
 
 ## Features
 - Displays a map of pins with location data
